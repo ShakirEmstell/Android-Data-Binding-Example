@@ -9,4 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+
+    fun getUserApi(): User {
+        return User(
+            "SHAKIR", "28", "shakir", "Shakir", "emst.shakir@gmail.com"
+        )
+    }
+
 }
